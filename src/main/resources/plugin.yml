@@ -1,0 +1,10 @@
+name: InfinitePlatformer
+version: ${project.version}
+main: me.mohawk2.infiniteplatformer.Main
+api-version: 1.16
+
+commands:
+  join:
+    description: All platformer related commands
+    permission: InfinitePlatformer.team
+    usage: /<command> runner|hunter|leave
